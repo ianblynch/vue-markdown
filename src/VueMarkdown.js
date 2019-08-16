@@ -10,6 +10,9 @@ import mark from 'markdown-it-mark'
 import toc from 'markdown-it-toc-and-anchor'
 import katex from 'markdown-it-katex'
 import tasklists from 'markdown-it-task-lists'
+import textly from 'textly'
+
+textly()
 
 export default {
   md: new markdownIt(),
