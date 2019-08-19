@@ -12,8 +12,6 @@ import katex from 'markdown-it-katex'
 import tasklists from 'markdown-it-task-lists'
 import textly from 'textly'
 
-textly()
-
 export default {
   md: new markdownIt(),
 
@@ -151,7 +149,7 @@ export default {
       .use(mark)
       .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
       .use(tasklists, { enabled: this.taskLists })
-
+      .use(textly)
     if (this.emoji) {
       this.md.use(emoji)
     }
