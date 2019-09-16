@@ -17,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/miaolz123/vue-markdown.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "vue",
     "markdown",
@@ -56,7 +59,7 @@
     "markdown-it-sup": "^1.0.0",
     "markdown-it-task-lists": "^2.0.1",
     "markdown-it-toc-and-anchor": "^4.1.2",
-    "textly": "file:../textly/textly-1.0.0.tgz",
+    "textly": "^1.0.4",
     "transform-runtime": "0.0.0"
   }
 }
